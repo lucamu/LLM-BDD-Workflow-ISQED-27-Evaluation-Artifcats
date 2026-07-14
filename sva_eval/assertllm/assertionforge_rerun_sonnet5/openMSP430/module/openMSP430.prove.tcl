@@ -1,0 +1,23 @@
+clear -all
+catch {set_property_compile_time_limit 60s}
+catch {analyze -sv12 -f openMSP430.f}
+catch {check_cov -init -type {coi proof}}
+if {![catch {elaborate -top openMSP430} e_el]} { puts "JGELAB ok" } else { puts "JGELAB fail: $e_el" }
+catch {clock dco_clk}
+catch {reset ~reset_n}
+catch {set_prove_time_limit 60s}
+catch {prove -all}
+if {![catch {set props [get_property_list -include {type assert}]} err]} {
+    foreach p $props {
+        if {![catch {set st [get_property_info $p -list status]} e2]} {
+            puts "JGPROP $p $st"
+        }
+    }
+}
+catch {check_cov -measure}
+if {![catch {set cov [check_cov -report -report_file cov.rpt -force]} e5]} {
+    puts "JGCOV_BEGIN"
+    puts $cov
+    puts "JGCOV_END"
+}
+exit

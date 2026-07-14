@@ -1,0 +1,17 @@
++incdir+.
+controller_test.v
+stubs.v
+t2600.v
+t2600_bus.v
+t6507lp_alu.v
+t6507lp_alu_wrapper.v
+t6507lp_fsm.v
+t6507lp_io.v
+t6507lp_package.v
+t6532.v
+test_top.v
+timescale.v
+vga_controller.v
+video.v
+video_converter.v
+t6507lp.sv

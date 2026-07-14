@@ -1,0 +1,13 @@
++incdir+.
+EX_stage.v
+ID_stage.v
+IF_stage.v
+MEM_stage.v
+WB_stage.v
+alu.v
+data_mem.v
+hazard_detection_unit.v
+instruction_mem.v
+mips_16_defs.v
+register_file.v
+educational_16_bit_mips_processor.sv

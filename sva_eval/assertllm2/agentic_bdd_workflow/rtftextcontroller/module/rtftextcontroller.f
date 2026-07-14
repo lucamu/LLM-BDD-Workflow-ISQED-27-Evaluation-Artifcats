@@ -1,0 +1,14 @@
++incdir+.
+HVCounter.v
+ParallelToSerial.v
+VT151.v
+VT163.v
+WXGASyncGen1366x768_60Hz.v
+WXGASyncGen1680x1050_60Hz.v
+change_det.v
+counter.v
+edge_det.v
+rtfColorROM.v
+rtfTextController3.v
+syncRam4kx9_1rw1r.v
+rtftextcontroller.sv

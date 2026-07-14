@@ -1,0 +1,11 @@
++incdir+.
+wb2sdrc.v
+async_fifo.v
+sdrc_define.v
+sdrc_core.v
+sdrc_bank_ctl.v
+sdrc_bank_fsm.v
+sdrc_bs_convert.v
+sdrc_req_gen.v
+sdrc_xfr_ctl.v
+sdrc_top.sv

@@ -1,0 +1,13 @@
++incdir+.
+BM_lamda.v
+DP_RAM.v
+GF_matrix_ascending_binary.v
+GF_matrix_dec.v
+GF_mult_add_syndromes.v
+Omega_Phy.v
+error_correction.v
+input_syndromes.v
+lamda_roots.v
+out_stage.v
+transport_in2out.v
+reed_solomon_decoder_204188.sv

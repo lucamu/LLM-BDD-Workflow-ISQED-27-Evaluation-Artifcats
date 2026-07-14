@@ -1,0 +1,16 @@
++incdir+.
+async_fifo_dw_simplex_actel.v
+async_fifo_mq.v
+async_fifo_mq_md.v
+dff_sr.v
+gray_counter_defines.v
+sd_counter.v
+sd_counter_defines.v
+sd_fifo.v
+versatile_fifo_async_cmp.v
+versatile_fifo_dual_port_ram.v
+versatile_fifo_dual_port_ram_dc_dw.v
+versatile_fifo_dual_port_ram_dc_sw.v
+versatile_fifo_dual_port_ram_sc_dw.v
+versatile_fifo_dual_port_ram_sc_sw.v
+versatile_fifo.sv

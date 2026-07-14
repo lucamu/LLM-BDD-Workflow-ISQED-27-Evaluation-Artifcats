@@ -1,0 +1,30 @@
+// Auto-generated global bind file for plain_prompt
+
+bind t6507lp t6507lp_sva_global u_t6507lp_sva_global (
+    .t6507lp_alu_alu_a(t6507lp_alu.alu_a),
+    .t6507lp_alu_alu_enable(t6507lp_alu.alu_enable),
+    .t6507lp_alu_alu_opcode(t6507lp_alu.alu_opcode),
+    .t6507lp_alu_alu_result(t6507lp_alu.alu_result),
+    .t6507lp_alu_alu_status(t6507lp_alu.alu_status),
+    .t6507lp_alu_alu_x(t6507lp_alu.alu_x),
+    .t6507lp_alu_alu_y(t6507lp_alu.alu_y),
+    .t6507lp_alu_clk(t6507lp_alu.clk),
+    .t6507lp_alu_reset_n(t6507lp_alu.reset_n),
+    .t6507lp_fsm_address(t6507lp_fsm.address),
+    .t6507lp_fsm_alu_a(t6507lp_fsm.alu_a),
+    .t6507lp_fsm_alu_opcode(t6507lp_fsm.alu_opcode),
+    .t6507lp_fsm_alu_result(t6507lp_fsm.alu_result),
+    .t6507lp_fsm_alu_status(t6507lp_fsm.alu_status),
+    .t6507lp_fsm_alu_x(t6507lp_fsm.alu_x),
+    .t6507lp_fsm_alu_y(t6507lp_fsm.alu_y),
+    .t6507lp_fsm_clk(t6507lp_fsm.clk),
+    .t6507lp_fsm_data_in(t6507lp_fsm.data_in),
+    .t6507lp_fsm_data_out(t6507lp_fsm.data_out),
+    .t6507lp_fsm_reset_n(t6507lp_fsm.reset_n),
+    .top_address(address),
+    .top_clk(clk),
+    .top_data_in(data_in),
+    .top_data_out(data_out),
+    .top_reset_n(reset_n),
+    .top_rw_mem(rw_mem)
+);
