@@ -1,4 +1,4 @@
-# Agentic-BDD-Workflow-ASP-DAC-27-Evaluation-Artifcats
+# Agentic-BDD-Workflow-ISQED-27-Evaluation-Artifcats
 
 All evaluation artifacts for our paper entitled "Agentic LLM-enabled End-to-End Behavior Driven Development Workflow for Formally Verified Hardware Designs" submitted to ASP-DAC 2027.
 
